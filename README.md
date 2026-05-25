@@ -132,6 +132,16 @@ Common anion molecular weights:
 | `Tf2N` | `280.15 g/mol` |
 | `DCA` | `66.05 g/mol` |
 
+## Data
+
+The datasets used to generate the figures are available in the `data/` directory.
+
+- `pareto_results/`: Evaluated candidates and Pareto-retained structures 
+  for 12 ion-pair systems, including H_CO₂, S_CO₂/N₂, and D values.
+
+- `pareto_subset_analysis/`: Pareto-retained structures selected for 
+  low H_CO₂, high S_CO₂/N₂, and low D across DCA-, OTf-, and Tf₂N-based systems.
+
 ## Notes
 
 - `asdi.py` generates Gaussian input files, runs Gaussian calculations, converts `.cosmo` files to `.sigma` files, and then removes temporary files.
