@@ -7,7 +7,7 @@ embed_size=256
 hidden_size=512
 rnn_layers_num=2
 dropout=0
-batch_size=2000
+batch_size=128
 learning_rate=3e-4
 
 
