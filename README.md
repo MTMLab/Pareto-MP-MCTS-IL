@@ -119,10 +119,9 @@ The current code also uses `149.07` as the molecular weight contribution of the 
 
 ```python
 MW = Descriptors.MolWt(mol) + 149.07
-SIJ = H2 / H1 * 44 / 28
 ```
 
-When changing the anion, update this value to the molecular weight of the selected anion. Otherwise, the mass-normalized Henry coefficient and selectivity-derived descriptor will still be calculated using the OTf mass.
+WWhen changing the anion, update this value to the molecular weight of the selected anion. Otherwise, calculations that use MW will continue to use the OTf mass.
 
 Common anion molecular weights:
 
