@@ -129,7 +129,7 @@ def ASDI(smi, type):
             os.system("mv profiles_rnn/* ./; rm -rf profiles_rnn")
 
             H2 = COSMOSAC_gamma([smi, "OTf", "n2"], [0.5, 0.5, 0], 298.15)[-1] * vapor(298.15, "n2") / 2
-            SIJ = H2 / H1 * 149.07 / 28
+            SIJ = H2 / H1 * 44 / 28
             SIJ_ = 1 / SIJ
             asdi = H1_ * SIJ_ * D_
 
