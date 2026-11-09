@@ -8,7 +8,7 @@ This directory contains a multi-player Monte Carlo Tree Search (MPMCTS) workflow
 
 If you use this code in your research, please cite:
 
-> DOI: [10.XXXX/XXXXXX](https://doi.org/10.XXXX/XXXXXX)
+> DOI: [10.1021/acs.iecr.6c03910](https://doi.org/10.1021/acs.iecr.6c03910)
 
 
 ## Files
